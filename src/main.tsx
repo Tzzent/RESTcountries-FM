@@ -1,12 +1,12 @@
 import './sass/main.scss';
 import React from 'react';
-import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom';
+import { createHashRouter, Navigate, RouterProvider } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import Layaout from './containers/Layout';
 import Home from './views/Home';
 import CountryDetail from './views/CountryDetail';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Navigate to='/home' replace />

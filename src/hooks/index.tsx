@@ -9,7 +9,7 @@ export function useRequest(query: object | undefined | null, props: Array<string
     async function fetchData() {
       setLoading(true);
       setData(null);
-      await fetch('/data.json')
+      await fetch(`${import.meta.env.BASE_URL}data.json`)
         .then(response => response.json())
         .then(result => {
           if (!query || !Object.keys(query).length) {
