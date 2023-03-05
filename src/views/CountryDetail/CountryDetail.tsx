@@ -17,7 +17,7 @@ export default function CountryDetail() {
   }, []);
 
   async function fetchCountry() {
-    await fetch('/data.json')
+    await fetch(`${import.meta.env.BASE_URL}data.json`)
       .then(response => response.json())
       .then(res => {
         const finalData = res.find((r: object) => {
