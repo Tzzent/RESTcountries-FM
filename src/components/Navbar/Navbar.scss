@@ -1,0 +1,26 @@
+@use "../../sass/variables" as *;
+
+.nav__container {
+  font-family: $font-nunito;
+  background-color: var(--elements);
+  color: var(--color-primary);
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 10vw;
+  box-shadow: var(--box-shadow);
+  position: relative;
+  z-index: 1;
+
+  .switch__theme {
+    font-family: $font-nunito;
+    border: none;
+    color: var(--color-primary);
+    font-weight: $weight-800;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

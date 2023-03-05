@@ -1,0 +1,23 @@
+@use "./variables" as *;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  transition: all 0.3s;
+}
+
+:root {
+  --color-primary: hsl(200, 15%, 8%);
+  --background-color: hsl(0, 0%, 98%);
+  --elements: hsl(0, 0%, 100%);
+  --input: hsl(0, 0%, 52%);
+  --box-shadow: 2px 2px 5px 1px rgb(0, 0, 0, 0.1);
+}
+
+.dark-theme {
+  --color-primary: hsl(0, 0%, 100%);
+  --background-color: hsl(207, 26%, 17%);
+  --elements: hsl(209, 23%, 22%);
+  --input: hsl(209, 23%, 22%);
+}

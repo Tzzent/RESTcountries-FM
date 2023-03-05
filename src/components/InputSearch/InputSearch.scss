@@ -1,0 +1,32 @@
+@use "../../sass/variables" as var;
+
+.search__input {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  color: var.$light-mode-input;
+
+  @media screen and (max-width: 600px) {
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  .icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    height: 100%;
+  }
+
+  & input {
+    background-color: var(--elements);
+    color: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    padding: 18px 18px 18px 40px;
+    width: 100%;
+    box-shadow: var.$box-shadow;
+  }
+}

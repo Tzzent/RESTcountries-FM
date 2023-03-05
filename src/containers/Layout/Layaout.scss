@@ -1,0 +1,9 @@
+@use "../../sass/variables" as *;
+
+.outlet__container {
+  padding: 40px 10vw;
+  background-color: var(--background-color);
+  box-shadow: var(--box-shadow);
+  position: relative;
+  min-height: 100vh;
+}
