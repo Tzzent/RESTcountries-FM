@@ -26,7 +26,7 @@ Este proyecto es una REST de paises de cada continente, que permite buscar al pa
 ![DesktopRESTCountries](https://user-images.githubusercontent.com/86677547/223479756-6ffd74da-13d2-444c-be7f-dd949e20e7a6.png)
 
 <br>
-📲 Mobile <br>
+📲 Mobile <br><br>
 
 ![MobileRESTCountries](https://user-images.githubusercontent.com/86677547/223480274-da59fadd-f954-478a-915b-c2bf46fef444.png)
 
