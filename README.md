@@ -22,11 +22,14 @@ Este proyecto es una REST de paises de cada continente, que permite buscar al pa
 ## Capturas de pantalla
 
 🖥️ Desktop <br>
+
 ![DesktopRESTCountries](https://user-images.githubusercontent.com/86677547/223479756-6ffd74da-13d2-444c-be7f-dd949e20e7a6.png)
 
 <br>
 📲 Mobile <br>
-![MobileRESTCountries](https://user-images.githubusercontent.com/86677547/223479819-c995cb9c-d11b-46ca-8cb3-7e3fed9e3746.png)
+
+![MobileRESTCountries](https://user-images.githubusercontent.com/86677547/223480274-da59fadd-f954-478a-915b-c2bf46fef444.png)
+
 
 ## Instalación y uso
 
